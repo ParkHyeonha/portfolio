@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     font-family: "Pretendard", "Inter", sans-serif;
@@ -76,6 +80,13 @@ header .header-wrap nav ul li:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 6px;
+}
+
+header.scroll {
+    background-color: var(--bg-white);
+    border-bottom: 1px solid var(--border-line);
+    color: var(--text-primary);
+    transition: all 0.3s ease;
 }
 
 
