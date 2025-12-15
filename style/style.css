@@ -401,6 +401,10 @@ header .header-wrap nav ul li:hover {
     cursor: pointer;
 }
 
+.contact-content .contact-content-right li a {
+    display: flex;
+}
+
 .contact-content .contact-content-right li img {
     justify-content: center;
     align-items: center;
