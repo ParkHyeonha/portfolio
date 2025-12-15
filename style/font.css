@@ -1,0 +1,82 @@
+:root {
+    /* color */
+    --bg-btn: #58616A;
+    --border-line: #B1B8BE;
+    --bg-gray: #D9D9D9;
+
+    /* Text */
+    --text-primary: #1e1e1e;
+    --text-secondary: #464C53;
+    --text-muted: #8A949E;
+
+    /* gap */
+    --gap: 16px;
+
+    /* Typography */
+    --fs-display: clamp(24px, 4vw, 60px);
+    --fs-h1: clamp(28px, 3.6vw, 44px);
+    --fs-h2: clamp(26px, 3.2vw, 40px);
+    --fs-h3: clamp(24px, 2.8vw, 36px);
+    --fs-h4: clamp(18px, 1.8vw, 24px);
+    --fs-body: clamp(16px, 1.4vw, 20px);
+    --fs-small: clamp(14px, 1.1vw, 16px);
+    --fs-xsmall: clamp(12px, 1vw, 14px);
+
+    --w-regular: 400;
+    --w-bold: 700;
+}
+
+.font-display {
+    font-size: var(--fs-display);
+    font-weight: var(--w-bold);
+}
+
+.font-h1 {
+    font-size: var(--fs-h1);
+    font-weight: var(--w-bold);
+}
+
+.font-h2 {
+    font-size: var(--fs-h2);
+    font-weight: var(--w-bold);
+}
+
+.font-h3 {
+    font-size: var(--fs-h3);
+    font-weight: var(--w-bold);
+}
+
+.font-h4 {
+    font-size: var(--fs-h4);
+    font-weight: var(--w-bold);
+}
+
+.font-h4-r {
+    font-size: var(--fs-h4);
+    font-weight: var(--w-regular);
+}
+
+.font-body {
+    font-size: var(--fs-body);
+    font-weight: var(--w-regular);
+}
+
+.font-body-b {
+    font-size: var(--fs-body);
+    font-weight: var(--w-bold);
+}
+
+.font-small {
+    font-size: var(--fs-small);
+    font-weight: var(--w-regular);
+}
+
+.font-small-b {
+    font-size: var(--fs-small);
+    font-weight: var(--w-bold);
+}
+
+.font-xsmall {
+    font-size: var(--fs-xsmall);
+    font-weight: var(--w-regular);
+}
