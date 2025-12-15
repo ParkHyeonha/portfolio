@@ -274,7 +274,8 @@ header.scroll {
 
 .main>div .main-project-text .main-project-text-tag ul {
     display: flex;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 8px;
     color: var(--text-muted);
     flex-wrap: wrap;
 }
@@ -282,7 +283,8 @@ header.scroll {
 .main>div .main-project-text .main-project-text-btns {
     padding-top: 8px;
     display: flex;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 8px;
     flex-wrap: wrap;
 }
 
@@ -326,7 +328,8 @@ header.scroll {
 .sub-project-text-btns {
     padding-top: 8px;
     display: flex;
-    gap: 16px;
+    column-gap: 16px;
+    row-gap: 8px;
     flex-wrap: wrap;
 }
 
@@ -477,6 +480,10 @@ footer {
 
     #main-project .side ul li:nth-child(n + 3) {
         display: none;
+    }
+
+    #sub-project .content {
+        flex-direction: column;
     }
 
     /* ✅ 태블릿/작은 화면: 3분할 */
