@@ -5,7 +5,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -73,7 +73,7 @@ header .header-wrap {
 
 header .header-wrap nav ul {
     display: flex;
-    gap: 40px;
+    gap: clamp(24px, 3vw, 40px);
 }
 
 header .header-wrap nav ul li:hover {
@@ -503,6 +503,17 @@ footer {
 
     .contact-content .contact-content-right {
         border-left: none;
+    }
+}
+
+@media (max-width: 700px) {
+    
+    header {
+        height: 50px;
+    }
+
+    header .header-wrap nav ul {
+        display: none;
     }
 }
 

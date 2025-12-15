@@ -1,7 +1,7 @@
 // header scroll effect
 window.addEventListener("scroll", () => {
 	const header = document.querySelector("header");
-	if (window.scrollY > 800) {
+	if (window.scrollY > 100) {
 		header.classList.add("scroll");
 	} else {
 		header.classList.remove("scroll");
