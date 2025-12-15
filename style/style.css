@@ -365,6 +365,10 @@ header .header-wrap nav ul li:hover {
     margin: 80px 0;
 }
 
+#contact .title {
+    margin-bottom: 40px;
+}
+
 .contact-content {
     display: flex;
     border-top: 1px solid var(--border-line);
